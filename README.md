@@ -52,7 +52,8 @@ Heroes with the Holy Spec can heal themselves during encounters, giving them inc
 ### Polymorphism OOP Concept
 
 Explore the concept of Polymorphism by allowing players to drink a one-time potion. This potion grants the player abilities from another hero class for a single fight. For example, a Melee Spec class can temporarily act as a Holy Spec, adding an extra layer of strategy to your battles.
-
+### Inheritance OOP Concept
+Exploring the concept of inheritance from Object Oriented programming, the enemy and hero classes are parent classes and attributes are edited in the child class for each type.
 ## How to Play
 
 1. **Select a hero class:**
