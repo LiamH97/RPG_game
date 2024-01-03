@@ -5,7 +5,7 @@ class Enemy():
     def __init__(self, melee_resist = 10, spell_resist = 10, holy_resist = 10,holydamage = 10,spelldamage = 10,meleedamage =10):
     # Setting base stats of enemy
         self.melee_resist = melee_resist
-        self.spell_resist = spell_resist
+        self.spell_resist = spell_resistttt
         self.holydamage = holydamage
         self.spelldamage = spelldamage
         self.meleedamage = meleedamage
