@@ -2,5 +2,5 @@
 # Increased holy damage
 # Heal ability with CD of 3 turns
 from hero import Hero
-class Holy():
+class Holy(Hero):
     Hero.holy_damage = Hero.holy_damage * 1.1
