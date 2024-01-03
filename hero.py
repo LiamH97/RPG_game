@@ -18,16 +18,27 @@ class Holy(Hero):
         super().__init__()
         self.holy_damage *= 1.5
         self.heal = self.health * .1
-holy_heal = Holy(heal = 0) # add a cooldown of 3 rounds for this ability
+holy_heal = Holy(heal = 0) # add a cooldown of 3 rounds for this ability in the game flow on main.py
 
 #Define Melee Class
 ## Increased melee damage
-# Powerful melee ability
+# Powerful melee ability on a CD
 class Melee(Hero):
     def __init__(self,slash):
         super().__init__()
         self.melee_damage *= 1.5
         self.melee_resist *= 1.1
         self.slash = self.melee_damage * 1.5
-sweeping_slash = Melee(slash=0) # add a cooldown of 2 rounds for this ability
-print(sweeping_slash.slash)
+sweeping_slash = Melee(slash=0) # add a cooldown of 2 rounds for this ability in the game flow on main.py
+
+#Define Spell Class
+## Increased spell damage
+# Powerful spellpower ability on a CD
+class Spell(Hero):
+    def __init__(self, pyro):
+        super().__init__()
+        self.spell_damage *= 1.5
+        self.pyro = self.spell_damage * 1.5 # This needs a 3 + round CD
+pyro_blast = Spell(pyro = 0) 
+print(pyro_blast.pyro)
+        
